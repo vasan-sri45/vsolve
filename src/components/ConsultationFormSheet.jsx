@@ -245,7 +245,7 @@ export default function ConsultationFormSheet({
               )}
 
               {/* Service */}
-              <Field label="Select Service">
+              <Field label="Select Service *">
                 <select
                   value={form.service}
                   onChange={(e) =>
@@ -284,7 +284,7 @@ export default function ConsultationFormSheet({
               </Field>
 
               {/* Date */}
-              <Field label="Schedule Date">
+              <Field label="Schedule Date *">
                 <input
                   type="date"
                   value={form.date}
@@ -299,7 +299,7 @@ export default function ConsultationFormSheet({
               </Field>
 
               {/* Time */}
-              <Field label="Schedule Time">
+              <Field label="Schedule Time *">
                 <input
                   type="time"
                   value={form.time}
