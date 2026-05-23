@@ -114,7 +114,7 @@ export default function HeroSection({ onSafeTalk }) {
           <img
             src={heroImage}
             alt="Family Support Illustration"
-            className="w-full max-w-[520px] object-contain"
+            className="w-full max-w-[580px] object-contain"
           />
         </motion.div>
       </div>
